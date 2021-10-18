@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BMW Cars</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="999999.png" />
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="cars.html">Cars</a></li>
+      <li><button onclick="lightmode()">lightmode</button></li>
+      <li><button onclick="drkmode()">drkmode</button></li>
+    </ul>
+    <center>
+      <div id="mydiv">
+        <h2>M2 2021</h2>
+        <img src="m22.jpg" width="40%" height="40%" />
+        <p>
+          When it comes to max performance, the word "compromise" is a curse,
+          but never fear, the 2021 BMW M2 Competition doesn't have to put a
+          quarter in the swear jar. Compared with the regular BMW 2-series, this
+          souped-up coupe badass boasts a meaner mug and wider hips, a chassis
+          tuned for attacking racetracks, and a more powerful engine. The
+          hard-charging, high-revving twin-turbo straight-six eats up
+          straightaways quicker than Kobayashi downs hot dogs.
+        </p>
+      </div>
+      <img
+        src="https://di-uploads-pod20.dealerinspire.com/pacificbmw/uploads/2020/09/2021-BMW-M3-and-M4.jpg"
+        alt=""
+      />
+      <p>
+        Whenever the letter M and the number 3 are together a model badge the
+        driver can expect a great experience, and that's true once again for the
+        2022 BMW M3 sedan. Sure, it might get ridiculed for its overwrought,
+        oversize grille, but row its satisfying manual gearbox or chase its
+        silky six-cylinder to the redline and the styling stigma is forgotten.
+        The standard 473-hp M3 is the purist's M3 because rear-wheel drive and a
+        stick-shift are mandatory. If quicker lap times are more important, the
+        Competition model has an enhanced twin-turbo straight-six with 503
+        horsepower and a track-tuned chassis. ,
+      </p>
+    </center>
+    <div id="footer">
+      <p>Footer</p>
+    </div>
+    <script>
+      function lightmode() {
+        document.body.style.backgroundColor = "white";
+        document.getElementById("mydiv").style.backgroundColor = "black";
+      }
+      function drkmode() {
+        document.body.style.backgroundColor = "black";
+        document.getElementById("mydiv").style.backgroundColor = "white";
+      }
+    </script>
+  </body>
+</html>

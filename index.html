@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BMW</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="999999.png" />
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="cars.html">Cars</a></li>
+      <li><button onclick="lightmode()">lightmode</button></li>
+      <li><button onclick="drkmode()">drkmode</button></li>
+    </ul>    
+    <center>
+      <h1>BMW</h1>
+      <img
+      src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQHipAMrpm3XpKcG5tOvKY9NwUWSl5Q67EzCvbjpGKUfuSwoPNAFMHJe1hTjlLcYuqG7A&usqp=CAU>
+      <hr />
+      <div id="div">
+      <p>
+      <h2>
+        Bayerische Motoren Werke AG, commonly referred to as BMW (German
+        pronunciation: [ˌbeːʔɛmˈveː] (About this soundlisten)), is a German
+        multinational corporate manufacturer of luxury vehicles and motorcycles
+        headquartered in Munich, Bavaria, Germany. The corporation was founded
+        in 1916 as a manufacturer of aircraft engines, which it produced from
+        1917 until 1918 and again from 1933 to 1945
+      </h2>
+    </p>
+    <iframe width="580" height="350" src="https://www.youtube.com/embed/3rY_PH3Pnas?start=12&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+  </div>
+  <div id="footer">
+    <p>Footer</p>
+  </div>
+  <script>
+    function lightmode() {
+      document.body.style.backgroundColor = "white";
+      document.getElementById('div').style.backgroundColor = "black";
+    }
+    function drkmode() {
+      document.body.style.backgroundColor = "black";
+      document.getElementById('div').style.backgroundColor = "white";
+
+    }
+  </script>
+  
+
+  
+  </body>
+</html>
